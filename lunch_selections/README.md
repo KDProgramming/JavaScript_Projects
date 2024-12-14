@@ -1,5 +1,6 @@
 # Lunch Selections Calculator
-A simple menu order calculator that allows users to select menu items, and the total bill is automatically calculated and displayed. This program is designed for web-based environments where users can choose from a list of items, and the total price is dynamically updated based on their selections.
+A simple menu order calculator that allows users to select menu items, and the total bill is automatically calculated and displayed. 
+This program is designed for web-based environments where users can choose from a list of items, and the total price is dynamically updated based on their selections.
 
 ## Features
 - **Interactive Menu**: Allows users to select multiple items from the menu.
