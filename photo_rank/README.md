@@ -1,5 +1,6 @@
 # Photo Ranking Program
-A simple JavaScript application that allows users to rank images by moving them between two sections: "Photo Bucket" and "Photo List." The user clicks on images to move them from one section to another, allowing them to rank or organize their photos visually.
+A simple JavaScript application that allows users to rank images by moving them between two sections: "Photo Bucket" and "Photo List." 
+The user clicks on images to move them from one section to another, allowing them to rank or organize their photos visually.
 
 ## Features
 - **Interactive Ranking**: Users can click on images to move them between two sections.
