@@ -1,0 +1,164 @@
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header style */
+header {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   background-color: #8cacff;
+   color: white;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+header img {
+   height: 80px;
+   width: 80px;
+}
+header h1 {
+   margin-left: 20px;
+}
+
+/* Navigation bar style */
+nav {
+   background-color: #376eff;
+   padding: 10px 0;
+   text-align: center;
+}
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-weight: bold;
+   font-size: 18px;
+}
+nav a:hover {
+   color: #ddd;
+}
+
+main {
+   background-color: #f0f8ff;
+   color: #333;
+   padding: 30px;
+   min-height: 400px;
+}
+
+h2 {
+   color: #444;
+}
+
+footer {
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   padding: 20px 0;
+   background-color: #376eff;
+   color: white;
+   text-align: center;
+   font-size: 1.2em;
+}
+
+form {
+   background-color: #f0f8ff;
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+}
+
+label {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+input {
+   margin-left: 10px; /* Space between label and input */
+}
+input[type="button"] {
+    background-color: #8cacff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #376eff;
+}
+
+fieldset {
+   border: 2px solid #8cacff;
+   border-radius: 8px;
+   padding: 20px;
+   margin-bottom: 20px;
+   background-color: #f0f8ff;
+}
+
+article > h1 {
+   font-size: 3.8em;
+   text-align: center;
+   color: ivory;
+   text-shadow: 2px 2px 10px black;
+   margin: 5px 0 20px 0;
+   background-color: #8cacff;
+}
+article > h2 {
+   font-size: 1.5em;
+   text-align: center;
+   color: ivory;
+   text-shadow: 2px 2px 10px black;
+   margin: 5px 0 20px 0;
+   background-color: #376eff;
+}
+
+article > p {
+   font-size: 1.5em;
+   line-height: 2;
+}
+
+article > ul {
+   list-style-type: disc;
+   font-size: 1.2em;
+   line-height: 2;
+   padding-left: 20px;
+   padding-bottom: 40px;
+   border-bottom: 3px solid black;
+}
+
+.lightbox {
+   display: none;
+   position: fixed;
+   z-index: 1000;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   justify-content: center;
+   align-items: center;
+}
+
+.lightboxContent {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   position: relative;
+}
+
+.closeBtn {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}

@@ -1,0 +1,59 @@
+<!--
+      Author: Kylie Drawdy
+      Date: 11/13/2024
+   -->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Play Game</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <!-- Added script element -->
+   <script src="js/gamePlay.js" defer></script>
+</head>
+
+<body>
+   <header>
+        <img src="images/BMO_image.jpg" alt="Image of BMO">
+        <h1>Drawdy Gaming Company</h1>
+    </header>
+
+    <nav>
+		<a href="website_example2.html">Home</a>
+        <a href="gamePlay.html">Play Game</a>
+        <a href="infoSquare.html">Info Square</a>
+		<a href="purchaseGames.html">Purchase Games</a>
+		<a href="gamesCart.html">Games Cart</a>
+    </nav>
+
+   <section>
+      <h1>Poker Hand</h1>
+
+      <h2>Player 1</h2>
+      <div id="hand">
+		<span class="card-slot" id="card1"></span>
+		<span class="card-slot" id="card2"></span>
+		<span class="card-slot" id="card3"></span>
+		<span class="card-slot" id="card4"></span>
+		<span class="card-slot" id="card5"></span>
+	  </div>
+
+      <h2>Player 2</h2>
+	  <div id="hand2">
+		<span class="card-slot" id="card6"></span>
+		<span class="card-slot" id="card7"></span>
+		<span class="card-slot" id="card8"></span>
+		<span class="card-slot" id="card9"></span>
+		<span class="card-slot" id="card10"></span>
+	  </div>
+
+      <div id="deckStatus">Cards left in the current deck: <span id="cardsLeft">52</span></div>
+	  <div id="hand1Score">Hand 1 Score: 0</div>
+	  <div id="hand2Score">Hand 2 Score: 0</div>
+	  <div id="winnerMessage"></div>
+      
+      <input type="button" value="DEAL" id="deal" />
+   </section>
+</body>
+</html>

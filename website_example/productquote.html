@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Kylie Drawdy
+      Date: 10/21/2024
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Product Quote</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script src="js/productquote.js" defer></script>
+</head>
+
+<body>
+
+   <header>
+      <h1>
+         Product Quote
+      </h1>
+   </header>
+
+   <nav>
+      <a href="websiteExample.html">Home</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="productquote.html">Product Quote</a>
+      <a href="productinfo.html">Product Info</a>
+    </nav>
+
+   <article>
+      <h2>Product selections</h2>
+      <form>
+         <input type="checkbox" class="productItem" id="basicWidget" value="19.95" />
+         <label for="item1">Basic Widget ($19.95)</label>
+         <input type="checkbox" class="productItem" id="smallWidget" value="29.95" />
+         <label for="item2">Small Widget ($29.95)</label>
+         <input type="checkbox" class="productItem" id="mediumWidget" value="39.95" />
+         <label for="item3">Medium Widget ($39.95)</label>
+         <input type="checkbox" class="productItem" id="largeWidget" value="49.95" />
+         <label for="item4">Large Widget ($49.95)</label>
+         <input type="checkbox" class="productItem" id="specialtyWidget" value="59.95" />
+         <label for="item5">Specialty Widget ($59.95)</label>
+		 <input type="checkbox" class="productItem" id="limitedWidget" value="69.95" />
+         <label for="item5">Limited Widget ($69.95)</label>
+		 <input type="checkbox" class="productItem" id="supremeWidget" value="79.95" />
+         <label for="item5">Supreme Widget ($79.95)</label>
+		 <input type="checkbox" class="productItem" id="ultimateWidget" value="89.95" />
+         <label for="item5">Ultimate Widget ($89.95)</label>
+      </form>
+      <aside>
+         Total Order Cost: <span id="billTotal">$0</span><br>
+		 Sales Tax: <span id="taxTotal">$0</span><br>
+		 Total With Tax: <span id="grandTotal">$0</span><br>
+      </aside>
+   </article>
+</body>
+</html>

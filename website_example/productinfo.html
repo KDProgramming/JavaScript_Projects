@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Kylie Drawdy
+      Date: 10/21/2024
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Product Info</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script src="js/prodnotes.js" defer></script>
+   <script src="js/productinfo.js" defer></script>
+</head>
+
+<body>
+
+   <article>
+      <h1>Our Products</h1>
+
+      <nav>
+         <a href="websiteExample.html">Home</a>
+         <a href="contactus.html">Contact Us</a>
+         <a href="productquote.html">Product Quote</a>
+         <a href="productinfo.html">Product Info</a>
+       </nav>
+
+	  <p>Click on a product for more information!</p>
+      <ul>
+        <li><a href="#" onclick="showProduct(0)">Basic Widget</a></li>
+        <li><a href="#" onclick="showProduct(1)">Small Widget</a></li>
+        <li><a href="#" onclick="showProduct(2)">Medium Widget</a></li>
+        <li><a href="#" onclick="showProduct(3)">Large Widget</a></li>
+        <li><a href="#" onclick="showProduct(4)">Specialty Widget</a></li>
+        <li><a href="#" onclick="showProduct(5)">Limited Widget</a></li>
+        <li><a href="#" onclick="showProduct(6)">Supreme Widget</a></li>
+        <li><a href="#" onclick="showProduct(7)">Ultimate Widget</a></li>
+    </ul>
+	 <div id="lightbox" class="lightbox">
+        <div class="lightboxContent">
+            <button class="closeBtn" onclick="closeLightbox()">Close</button>
+            <h2 id="productTitle"></h2>
+            <p id="productDescription"></p>
+            <img id="productImage" src="" alt="Product Image">
+        </div>
+    </div>
+   </article>
+</body>
+</html>

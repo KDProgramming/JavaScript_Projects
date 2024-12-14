@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+      Author: Kylie Drawdy
+      Date: 10/21/2024
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Contact Us!</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script src="js/contactus.js" defer></script>
+</head>
+
+<body>
+
+   <header>
+      <h1>
+         Contact Us!
+      </h1>
+   </header>
+
+  <nav>
+    <a href="websiteExample.html">Home</a>
+    <a href="contactus.html">Contact Us</a>
+    <a href="productquote.html">Product Quote</a>
+    <a href="productinfo.html">Product Info</a>
+  </nav>
+
+   <article>
+      <h2>Contact Information</h2>
+      <form>
+        <fieldset id="contactInfo">
+          <label for="firstNameInput">
+            First Name
+            <input type="text" id="firstName" name="firstName" />
+          </label>
+		  <label for="lastNameInput">
+            Last Name
+            <input type="text" id="lastName" name="lastName" />
+          </label>
+		  <label for="addressInput">
+            Address
+            <input type="text" id="address" name="address" />
+          </label>
+		  <label for="cityInput">
+            City
+            <input type="text" id="city" name="city" />
+          </label>
+		  <label for="stateInput">
+            State
+            <input type="text" id="state" name="state" />
+          </label>
+		  <label for="zipInput">
+            ZIP Code
+            <input type="text" id="zip" name="zip" />
+          </label>
+		  <label for="phoneInput">
+            Phone
+            <input type="text" id="phone" name="phone" />
+          </label>
+          <label for="emailInput">
+            Email
+            <input type="text" id="email" name="email" />
+          </label>
+        </fieldset>
+		<fieldset id="radioButton">
+		<p>Would you like to join our mailing list?</p>    
+		<input type="radio" id="yes" name="mailingList" value="yes">
+		<label for="yes">Yes</label><br>
+		<input type="radio" id="no" name="mailingList" value="no">
+		<label for="no">No</label><br>
+		</fieldset>
+        <fieldset id="submitButton">
+          <input type="button" id="submit" value="Submit" />
+        </fieldset>
+     </form>
+   </article>
+</body>
+</html>

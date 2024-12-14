@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Kylie Drawdy
+      Date: 10/7/2024   
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 7-4</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script src="js/customerQueue_txt.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Customer Queue
+      </h1>
+   </header>
+
+   <article>
+      
+      <section>
+      <div id="customerInput">
+         <label for="customerName">Customer</label>
+         <input type="text" id="customerName" name="customerName" /> <br />
+         
+         <input type="button" id="addButton" value="add" /> 
+         <input type="button" id="searchButton" value="search" />
+         <input type="button" id="removeButton" value="remove" /> 
+         
+         <p id="status"></p>
+         
+         
+      </div>
+      
+      <div id="customerBox">
+         <h1>Customer List <input id="topButton" value="Remove Top Customer" type="button" /></h1>
+         
+         <ol id="customerList">
+         </ol>
+      </div>
+   </section>
+   </article>
+</body>
+</html>

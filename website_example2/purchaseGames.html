@@ -1,0 +1,72 @@
+<!--
+      Author: Kylie Drawdy
+      Date: 11/13/2024
+   -->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Purchase Games</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script src="js/purchaseGames.js" defer></script>
+</head>
+
+<body>
+   <header>
+        <img src="images/BMO_image.jpg" alt="Image of BMO">
+        <h1>Drawdy Gaming Company</h1>
+    </header>
+   
+
+   <section>
+        <!-- Navigation Menu -->
+    <nav>
+		<a href="website_example2.html">Home</a>
+        <a href="gamePlay.html">Play Game</a>
+        <a href="infoSquare.html">Info Square</a>
+		<a href="purchaseGames.html">Purchase Games</a>
+		<a href="gamesCart.html">Games Cart</a>
+    </nav> 
+      <h1>Our Games</h1>
+      <table id="ordertable">
+          <tr>
+             <th>Product</th>
+             <td>
+                <select id="product" name="product">
+                   <option value="Great Game">Great Game</option>
+                   <option value="Okay Game">Okay Game</option>
+                   <option value="Basic Game">Basic Game</option>
+                   <option value="Advanced Game">Advanced Game</option>
+				   <option value="Interesting Game">Interesting Game</option>
+                </select>
+             </td>
+          </tr>
+          <tr>
+             <th>Price</th>
+             <td>
+                <input id="price" name="price" type="text" value="$59.95" readonly="readonly" disabled />
+             </td>
+          </tr>
+          <tr>
+             <th>Quantity</th>
+             <td>
+                <select id="quantity" name="quantity">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+                </select>
+             </td>
+          </tr>
+      </table>
+      <input type="button" value="Add to Shopping Cart" id="submitButton" />
+	  <button onclick="window.location.href='gamesCart.html'">View Cart</button>
+   </section>
+</body>
+</html>
